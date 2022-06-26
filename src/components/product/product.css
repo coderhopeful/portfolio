@@ -1,0 +1,53 @@
+.p {
+    width: 45%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid #c2c5aa;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px #2c6e49;
+}
+
+.p-browser {
+    height: 20px;
+    background-color: #c2c5aa;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+
+.p-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+
+}
+
+.p-img {
+    width: 100%;
+    transition: all 10s ease;
+
+}
+
+.p:hover .p-img,
+p-h {
+    transform: translateY(-40%);
+}
+
+.p h2 {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    color: #2c6e49;
+    margin-left: 20px;
+
+
+}
+
+.p a {
+    text-decoration: none;
+}
