@@ -17,7 +17,9 @@ const ProductList = () => {
                         <Product key={item.id} img={item.img} link={item.link} name={item.name} />
                     ))}
             </div>
+            
         </div>
+        
 
 
 
