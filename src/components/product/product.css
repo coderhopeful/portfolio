@@ -51,3 +51,10 @@ p-h {
 .p a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 480px) {
+    .p {
+      width: 40%;
+      height: 20vh;
+    }
+  }

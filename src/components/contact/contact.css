@@ -6,7 +6,7 @@
 .c-bg{
     width: 20px;    
     height: 100%;
-    background-color: aqua;
+    background-color: green;
     position: absolute;
 }
 
@@ -80,3 +80,47 @@ button{
 .bold{
     font-weight: bold;
 }
+
+.success{
+    color: #f42b03;
+    font-weight: 700;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width: 480px) {
+    .c-wrapper {
+      flex-direction: column;
+      padding: 0px 50px;
+    }
+  
+    .c-title {
+      font-size: 30px;
+    }
+  
+    .c-info-item {
+      margin: 20px 0px;
+      width: 100%;
+    }
+  
+    .c-desc {
+      display: none;
+    }
+  
+    form {
+      margin-top: 0px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    input {
+      width: 35%;
+      height: 40px;
+      margin: 10px;
+      margin-left: 0;
+    }
+  
+    button {
+      margin-top: 10px;
+    }
+  }
