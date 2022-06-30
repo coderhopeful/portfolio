@@ -2,7 +2,7 @@
     width: 50px;
     height: 25px;
     border-radius: 20px;
-    border: 1px solid black;
+    border: 1px solid #03045e;
     background-color: white;
     position: fixed;
     top: 10px;
@@ -24,7 +24,7 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color:black;
+    background-color:#03045e;
     position: absolute;
     cursor: pointer;
   

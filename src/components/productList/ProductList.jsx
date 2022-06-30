@@ -8,18 +8,17 @@ const ProductList = () => {
         <div className="pl">
             <div className="pl-texts">
                 <h1 className="pl-title">Projects</h1>
-                <p className="pl-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit aspernatur reprehenderit iure harum, praesentium dicta delectus at nisi nemo aliquam earum blanditiis perferendis nihil beatae animi doloremque dolores numquam aperiam.
-                    Non voluptatem maxime iure ea sint pariatur. Porro dicta illum molestiae veniam perspiciatis necessitatibus, minus eaque itaque? Iste, odio veritatis. Aut, enim. Sapiente ipsam quidem alias odio illum, soluta corrupti?</p>
+                <p className="pl-desc">These are some of the projects I have worked on during my training at Luminar and on my own. Clicking on the image will take you to the GitHub repository. The title can be clicked to redirect you to a hosted version of the project.</p>
             </div>
             <div className="pl-list">
-                { products.map((item) => (
+                {products.map((item) => (
 
-                        <Product key={item.id} img={item.img} link={item.link} name={item.name} />
-                    ))}
+                    <Product key={item.id} img={item.img} link={item.link} name={item.name} />
+                ))}
             </div>
-            
+
         </div>
-        
+
 
 
 
